@@ -151,18 +151,26 @@
         <div class="row">
             <div class="span4">
                 <h2>Who We Are</h2>
-                <p class="lead">Founded in 1959, the Calgary Rams are one of the oldest clubs in Calgary. Over the years the club has been just as well known for its parties and social activities off the field as the rugby they play on it. Whether you are looking to play some serious rugby, or just come out and enjoy a few beers with a bunch of like-minded rugby folk, the club will welcome you into the family.</p>
+              <p class="lead">Founded in 1959, the Calgary Rams Rugby Club is one of the oldest clubs in Calgary. The Rams are well known to be tenacious on the field, and very social off the pitch.</p>
+              <p class="lead">Our club consists of Men’s 2nd Division (2014 City Champions), and 3rd Division, as well as Women’s SW1 (2012 Provincial Champions) and SW2.</p>
+              <p class="lead"> Whether you have years of experience, or are new to the sport, we are always looking for new players, and welcome all that are interested in the rugby culture and joining our club.</p>
+
             </div>
 
             <div class="span4">
-                <h2>Train With Us</h2>
-                <p class="lead">Pre-Season training starts in early January with SMASH conditioning
-                    We train outdoors at Bishop Carroll High School.
-                    Outdoor training for all teams starts around April (snow permitting), Tuesdays and Thursdays from 6:00pm - 8:00pm . </p>
+              <h2>Train With Us</h2>
+              <p class="lead">Join us for pre-season indoor training throughout the months of January to April.</p>
+              <p class="lead"> Contact the <a href="mailto:vpmen@calgaryramsrugby.com">VP Men</a> or the <a href="mailto:vpwomen@calgaryramsrugby.com">VP Women</a> for information on dates, times, and locations.</p>
+
+              <p class="lead">Outdoor training will commence in April, weather permitting, and is held on Tuesday and Thursday evenings from 6:15 – 8:00pm at Bishop Carroll High School fields (4624 Richard Road SW Calgary).</p>
             </div>
             <div class="span4">
-                <h2>Play With Us</h2>
-                <p class="lead"><?php print l('Register Now', 'https://gw.itsportsnet.com/memberArea.php?scriptName=MEMBERLOCKERHOME&leagueID=5204&menuItem=MAhome&cache=update');?></p>
+
+
+              <h2>Play With Us</h2>
+              <p class="lead">The rugby season begins at the beginning of may, weather permitting, and runs until early October with provincial championships. </p>
+              <p class="lead">Games in Calgary are played at the <a href="http://www.calgaryrugby.com/">Calgary Rugby Union</a>, with away games in Banff, Lethbridge, &amp; Red Deer.</p>
+              <p class="lead">If you have chosen to join the Calgary Rams Rugby Club please <?php print l('Register Here', 'https://gw.itsportsnet.com/memberArea.php?scriptName=MEMBERLOCKERHOME&leagueID=5204&menuItem=MAhome&cache=update');?></p>
             </div>
         </div>
     <?php else:?>
@@ -194,21 +202,23 @@
     <div id="footer">
       <div class="row">
         <div class="span12">
-          <div class="span3">
-            <ul><li><a href="about">About Us</a></li></ul>
-          </div>
-
-          <div class="span3">
-            <ul><li><a href="contacts">Contact Us</a></li></ul>
-          </div>
-
-          <div class="span3">
-            <ul><li><a href="sponsors">Our Sponsors</a></li></ul>
-          </div>
-
+          <div class="span1"></div>
           <div class="span2">
-            <ul><li><a href="links">Links</a></li></ul>
+            <ul><li><?php print l('About Us', 'about-us');?></li></ul>
           </div>
+          <div class="span2">
+            <ul><li><?php print l('Contact Us', 'contact-us');?></li></ul>
+          </div>
+          <div class="span2">
+            <ul><li><?php print l('Our Sponsors', 'sponsors');?></li></ul>
+          </div>
+          <div class="span2">
+            <ul><li><?php print l('Fundraising Policy', 'fundraising-policy');?></li></ul>
+          </div>
+          <div class="span2">
+            <ul><li><?php print l('Links', 'links');?></li></ul>
+          </div>
+          <div class="span1"></div>
         </div>
       </div>
       <?php if ($page['footer']): ?>
