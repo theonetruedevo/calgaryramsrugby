@@ -152,7 +152,7 @@
             <div class="span4">
                 <h2>Who We Are</h2>
               <p class="lead">Founded in 1959, the Calgary Rams Rugby Club is one of the oldest clubs in Calgary. The Rams are well known to be tenacious on the field, and very social off the pitch.</p>
-              <p class="lead">Our club consists of Men’s 2nd Division (2014 City Champions), and 3rd Division, as well as Women’s SW1 (2012 Provincial Champions) and SW2.</p>
+              <p class="lead">Our club consists of Men’s 2nd Division (2014 City Champions), and 3rd Division, as well as Women’s SW1 (2013 Provincial Champions) and SW2.</p>
               <p class="lead"> Whether you have years of experience, or are new to the sport, we are always looking for new players, and welcome all that are interested in the rugby culture and joining our club.</p>
 
             </div>
@@ -168,9 +168,9 @@
 
 
               <h2>Play With Us</h2>
-              <p class="lead">The rugby season begins at the beginning of may, weather permitting, and runs until early October with provincial championships. </p>
-              <p class="lead">Games in Calgary are played at the <a href="http://www.calgaryrugby.com/">Calgary Rugby Union</a>, with away games in Banff, Lethbridge, &amp; Red Deer.</p>
-              <p class="lead">If you have chosen to join the Calgary Rams Rugby Club please <?php print l('Register Here', 'https://gw.itsportsnet.com/memberArea.php?scriptName=MEMBERLOCKERHOME&leagueID=5204&menuItem=MAhome&cache=update');?></p>
+              <p class="lead">The rugby season begins at the beginning of May, weather permitting, and men's rugby runs until provincials in October, and women's rugby season ends with provincials in August.</p>
+              <p class="lead">Games in Calgary are played at the <a href="http://www.calgaryrugby.com/">Calgary Rugby Union</a>, with away games in Banff, Lethbridge, Edmonton, &amp; Red Deer.</p>
+              <p class="lead">If you have chosen to join the Calgary Rams Rugby Club please <?php print l('Register Here', 'https://rcmembers.sportngin.com/register/form/291303946');?></p>
             </div>
         </div>
     <?php else:?>

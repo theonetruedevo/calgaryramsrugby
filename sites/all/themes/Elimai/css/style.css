@@ -11,9 +11,13 @@
 /* line 14, ../sass/style.scss */
 body {
   font-family: 'Titillium Web', sans-serif;
-  color: #999999;
+  color: #292f33;
   font-weight: 300;
   letter-spacing: .5px;
+}
+
+.carousel-inner h2 {
+    color: #999;
 }
 
 /* line 21, ../sass/style.scss */
@@ -74,7 +78,7 @@ h6 {
 }
 /* line 68, ../sass/style.scss */
 #page-wrapper #header #name-and-slogan #site-slogan {
-  color: #999999;
+  color: #292f33;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 18px;
